@@ -16,7 +16,7 @@
 
 ### **rule-set**
 
-由此分支获取： [meta branch](https://github.com/MetaCubeX/meta-rules-dat/tree/meta)
+由此分支获取： [meta branch](https://github.com/Moladylee/meta-rules-dat/tree/meta)
 
 ## **country.mmdb,geoip.dat,geoip.db 内容**
 
@@ -75,7 +75,7 @@ rule-providers:
     interval: 86400
     path: ./provider/rule-set/cn_domain.yaml
     type: http
-    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml"
+    url: "https://raw.githubusercontent.com/Moladylee/meta-rules-dat/meta/geo/geosite/cn.yaml"
 
 rules:
   - RULE-SET,cn,DIRECT
